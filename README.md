@@ -11,5 +11,4 @@ This is a lightweight 2D profiling function performance in JavaScript.
 	var quicksilver = new Quicksilver();
 	quicksilver.profileFunction(window.onload);
 	console.log(quicksilver.getResults());			// {start: theStartTime, end: theEndTime, funcName: window.onload}
-  }
 ```
